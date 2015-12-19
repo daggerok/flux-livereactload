@@ -10,7 +10,8 @@
     "postinstall": "npm run vendors",
     "vendors": "mkdir -pv dist/ && cp -Rf node_modules/jquery/dist/jquery.min.js dist/ && cp -Rf node_modules/bootstrap/dist/js/bootstrap.min.js dist/ && cp -Rf node_modules/bootstrap/dist/css/bootstrap.min.css dist/",
     "start": "watchify src/entry.jsx -o 'envify > dist/bundle.js' -t babelify -p livereactload -d -v --delay 200 --fast=true",
-    "build": "browserify src/main.jsx -o dist/bundle.js -t babelify -v"
+    "prebuild": "npm run clean && npm install --no-optional",
+    "build": "browserify src/entry.jsx -o dist/bundle.js -t babelify"
   },
   "repository": {
     "type": "git",
