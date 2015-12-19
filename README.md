@@ -8,5 +8,7 @@ flux-livereactload [![build](https://api.travis-ci.org/daggerok/flux-livereactlo
 - browserify
 - watchify
 - livereactload
+- superagent
+
 
   `npm start`
