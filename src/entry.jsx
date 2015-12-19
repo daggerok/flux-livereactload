@@ -1,4 +1,5 @@
-import ReactDOM from 'react-dom'
-import Test from './components/Test.jsx'
+const React = require('react'),
+ReactDOM = require('react-dom'),
+Main = require('./components/Main.jsx')
 
-ReactDOM.render(<Test />, document.getElementById('view'))
+ReactDOM.render(<Main />, document.getElementById('view'))

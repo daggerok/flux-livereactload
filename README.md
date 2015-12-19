@@ -2,7 +2,7 @@ flux-livereactload [![build](https://api.travis-ci.org/daggerok/flux-livereactlo
 ==================
 - babel
 - es2015
-- flux
+- reflux
 - jsx
 - react
 - browserify

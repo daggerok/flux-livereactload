@@ -1,7 +1,7 @@
 {
   "name": "flux-livereactload",
   "version": "1.0.0",
-  "description": "babel es2015 flux jsx react browserify watchify livereactload",
+  "description": "babel es2015 reflux jsx react browserify watchify livereactload",
   "main": "boundle.js",
   "scripts": {
     "clean": "rm -rf dist/",
@@ -21,7 +21,7 @@
     "babel",
     "browserify",
     "es2015",
-    "flux",
+    "reflux",
     "jsx",
     "livereactload",
     "react",
@@ -46,6 +46,7 @@
     "bootstrap": "^3.3.6",
     "jquery": "^2.1.4",
     "react": "^0.14.3",
-    "react-dom": "^0.14.3"
+    "react-dom": "^0.14.3",
+    "reflux": "^0.3.0"
   }
 }
