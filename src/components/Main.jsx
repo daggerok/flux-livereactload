@@ -28,28 +28,32 @@ Store = Reflux.createStore({
 Main = React.createClass({
   mixins: [Reflux.connect(Store)],
   render() { 
-    return  <div className="container">
-              <div className="text-success panel panel-heading">uptime: {this.state.counter} seconds...</div>
-              <table className="table table-hover table-responsive">
-              <caption>people</caption>
-              <thead>
-                <tr className="row">
-                  <td className="col-lg-1">id</td>
-                  <td className="col-lg-11">name</td>
-                </tr>
-              </thead>
-              <tbody>
-              {this.state.people.map((person, i) => {
-                return (
-                  <tr key={i} className="row">
-                    <td className="col-lg-1">{person.id}</td>
-                    <td className="col-lg-11">{person.name}</td>
-                  </tr>
-                )
-              })}
-              </tbody>
-              </table>
-            </div>
+    return (
+      <div className="container">
+        <div className="text-success panel panel-heading">uptime: {this.state.counter} seconds...</div>
+        <table className="table table-hover table-responsive">
+        <caption>employees</caption>
+        <thead>
+          <tr className="row">
+            <td className="col-lg-1">id</td>
+            <td className="col-lg-6">name</td>
+            <td className="col-lg-5">salary</td>
+          </tr>
+        </thead>
+        <tbody>
+        {this.state.people.map((person, i) => {
+          return (
+            <tr key={i} className="row">
+              <td className="col-lg-1">{person.id}</td>
+              <td className="col-lg-6">{person.name}</td>
+              <td className="col-lg-5">{person.salary}</td>
+            </tr>
+          )
+        })}
+        </tbody>
+        </table>
+      </div>
+    )
   }
 })
 
