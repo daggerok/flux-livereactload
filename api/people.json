@@ -1,412 +1,415 @@
-[
-  {
-    "id": 1,
-    "name": "Duke Anthony",
-    "salary": "$3,577.32"
-  },
-  {
-    "id": 2,
-    "name": "Gallagher Case",
-    "salary": "$1,262.53"
-  },
-  {
-    "id": 3,
-    "name": "Gale Hunter",
-    "salary": "$3,580.99"
-  },
-  {
-    "id": 4,
-    "name": "Kelly Flowers",
-    "salary": "$1,404.89"
-  },
-  {
-    "id": 5,
-    "name": "Ewing Hicks",
-    "salary": "$2,206.29"
-  },
-  {
-    "id": 6,
-    "name": "Foster Mcpherson",
-    "salary": "$2,590.63"
-  },
-  {
-    "id": 7,
-    "name": "Flores Battle",
-    "salary": "$1,267.47"
-  },
-  {
-    "id": 8,
-    "name": "Shields Vazquez",
-    "salary": "$3,453.98"
-  },
-  {
-    "id": 9,
-    "name": "Jeannine Ashley",
-    "salary": "$1,840.46"
-  },
-  {
-    "id": 10,
-    "name": "Teri Barlow",
-    "salary": "$3,018.44"
-  },
-  {
-    "id": 11,
-    "name": "Spencer Pittman",
-    "salary": "$3,852.79"
-  },
-  {
-    "id": 12,
-    "name": "Melinda Burch",
-    "salary": "$1,158.26"
-  },
-  {
-    "id": 13,
-    "name": "Candace Robertson",
-    "salary": "$2,640.40"
-  },
-  {
-    "id": 14,
-    "name": "Schroeder Duncan",
-    "salary": "$3,823.78"
-  },
-  {
-    "id": 15,
-    "name": "Diane Conley",
-    "salary": "$1,480.43"
-  },
-  {
-    "id": 16,
-    "name": "Cindy Richard",
-    "salary": "$2,688.76"
-  },
-  {
-    "id": 17,
-    "name": "Maricela Erickson",
-    "salary": "$2,103.56"
-  },
-  {
-    "id": 18,
-    "name": "Angel Hood",
-    "salary": "$2,465.88"
-  },
-  {
-    "id": 19,
-    "name": "Carver Marshall",
-    "salary": "$2,584.30"
-  },
-  {
-    "id": 20,
-    "name": "Michael Tyson",
-    "salary": "$3,607.93"
-  },
-  {
-    "id": 21,
-    "name": "Pearson Lynn",
-    "salary": "$2,434.63"
-  },
-  {
-    "id": 22,
-    "name": "Reva Herrera",
-    "salary": "$3,922.58"
-  },
-  {
-    "id": 23,
-    "name": "Edwards Middleton",
-    "salary": "$1,016.04"
-  },
-  {
-    "id": 24,
-    "name": "Katelyn Joyner",
-    "salary": "$1,416.51"
-  },
-  {
-    "id": 25,
-    "name": "Selena Shepherd",
-    "salary": "$1,713.88"
-  },
-  {
-    "id": 26,
-    "name": "Corina Wise",
-    "salary": "$3,839.06"
-  },
-  {
-    "id": 27,
-    "name": "Juarez Daniels",
-    "salary": "$1,974.13"
-  },
-  {
-    "id": 28,
-    "name": "Cox Henson",
-    "salary": "$1,932.87"
-  },
-  {
-    "id": 29,
-    "name": "Aguirre Cain",
-    "salary": "$1,497.80"
-  },
-  {
-    "id": 30,
-    "name": "Mcgowan Cox",
-    "salary": "$3,304.61"
-  },
-  {
-    "id": 31,
-    "name": "Butler Luna",
-    "salary": "$2,050.58"
-  },
-  {
-    "id": 32,
-    "name": "Marietta Noble",
-    "salary": "$3,238.04"
-  },
-  {
-    "id": 33,
-    "name": "Matilda Jacobs",
-    "salary": "$2,014.14"
-  },
-  {
-    "id": 34,
-    "name": "Janet Carpenter",
-    "salary": "$3,175.92"
-  },
-  {
-    "id": 35,
-    "name": "Chelsea Berg",
-    "salary": "$2,007.60"
-  },
-  {
-    "id": 36,
-    "name": "Wolfe Lester",
-    "salary": "$1,273.51"
-  },
-  {
-    "id": 37,
-    "name": "Beasley Salinas",
-    "salary": "$1,918.96"
-  },
-  {
-    "id": 38,
-    "name": "Melva Ortiz",
-    "salary": "$1,106.54"
-  },
-  {
-    "id": 39,
-    "name": "Madelyn Hill",
-    "salary": "$2,826.14"
-  },
-  {
-    "id": 40,
-    "name": "Kemp Butler",
-    "salary": "$2,401.87"
-  },
-  {
-    "id": 41,
-    "name": "Susan Rice",
-    "salary": "$1,338.64"
-  },
-  {
-    "id": 42,
-    "name": "Shelly Mccarty",
-    "salary": "$2,485.60"
-  },
-  {
-    "id": 43,
-    "name": "Glenna Hopkins",
-    "salary": "$1,365.88"
-  },
-  {
-    "id": 44,
-    "name": "Wood Frederick",
-    "salary": "$3,403.55"
-  },
-  {
-    "id": 45,
-    "name": "Lorie Clayton",
-    "salary": "$3,098.39"
-  },
-  {
-    "id": 46,
-    "name": "Linda Valenzuela",
-    "salary": "$2,065.72"
-  },
-  {
-    "id": 47,
-    "name": "Elma Small",
-    "salary": "$2,907.03"
-  },
-  {
-    "id": 48,
-    "name": "Queen Arnold",
-    "salary": "$1,437.15"
-  },
-  {
-    "id": 49,
-    "name": "Krystal Farley",
-    "salary": "$2,261.85"
-  },
-  {
-    "id": 50,
-    "name": "Baxter Clark",
-    "salary": "$2,553.63"
-  },
-  {
-    "id": 51,
-    "name": "Christine Hobbs",
-    "salary": "$1,875.60"
-  },
-  {
-    "id": 52,
-    "name": "Sallie Joseph",
-    "salary": "$1,145.67"
-  },
-  {
-    "id": 53,
-    "name": "Natalie Rodriquez",
-    "salary": "$3,427.86"
-  },
-  {
-    "id": 54,
-    "name": "Deanna Copeland",
-    "salary": "$1,769.57"
-  },
-  {
-    "id": 55,
-    "name": "Deena Goodwin",
-    "salary": "$2,381.15"
-  },
-  {
-    "id": 56,
-    "name": "Manning Snyder",
-    "salary": "$3,754.47"
-  },
-  {
-    "id": 57,
-    "name": "Jannie Cleveland",
-    "salary": "$1,729.34"
-  },
-  {
-    "id": 58,
-    "name": "Eula Burris",
-    "salary": "$1,935.75"
-  },
-  {
-    "id": 59,
-    "name": "Lloyd Boyle",
-    "salary": "$2,191.46"
-  },
-  {
-    "id": 60,
-    "name": "Snyder Walker",
-    "salary": "$2,891.67"
-  },
-  {
-    "id": 61,
-    "name": "Kendra Goodman",
-    "salary": "$3,983.21"
-  },
-  {
-    "id": 62,
-    "name": "Dolores Vaughan",
-    "salary": "$3,815.05"
-  },
-  {
-    "id": 63,
-    "name": "Amber Morin",
-    "salary": "$3,891.34"
-  },
-  {
-    "id": 64,
-    "name": "Dalton Garcia",
-    "salary": "$2,434.82"
-  },
-  {
-    "id": 65,
-    "name": "Debora Reynolds",
-    "salary": "$2,502.92"
-  },
-  {
-    "id": 66,
-    "name": "Billie Taylor",
-    "salary": "$3,100.97"
-  },
-  {
-    "id": 67,
-    "name": "Mcfadden Reese",
-    "salary": "$1,864.08"
-  },
-  {
-    "id": 68,
-    "name": "Jimmie Lewis",
-    "salary": "$2,756.98"
-  },
-  {
-    "id": 69,
-    "name": "Julie Lindsay",
-    "salary": "$2,886.60"
-  },
-  {
-    "id": 70,
-    "name": "Leah Wong",
-    "salary": "$2,422.66"
-  },
-  {
-    "id": 71,
-    "name": "Rosalind Chan",
-    "salary": "$1,638.78"
-  },
-  {
-    "id": 72,
-    "name": "Anna Howell",
-    "salary": "$2,075.44"
-  },
-  {
-    "id": 73,
-    "name": "Dianna Oneal",
-    "salary": "$3,575.37"
-  },
-  {
-    "id": 74,
-    "name": "Fisher Villarreal",
-    "salary": "$1,720.87"
-  },
-  {
-    "id": 75,
-    "name": "Marsha Henry",
-    "salary": "$3,372.78"
-  },
-  {
-    "id": 76,
-    "name": "Francesca Stephens",
-    "salary": "$2,246.25"
-  },
-  {
-    "id": 77,
-    "name": "Benton Patterson",
-    "salary": "$1,972.47"
-  },
-  {
-    "id": 78,
-    "name": "Smith Ward",
-    "salary": "$3,094.74"
-  },
-  {
-    "id": 79,
-    "name": "Adela Mccarthy",
-    "salary": "$1,042.64"
-  },
-  {
-    "id": 80,
-    "name": "Janna Sweet",
-    "salary": "$1,788.48"
-  },
-  {
-    "id": 81,
-    "name": "Silva Carlson",
-    "salary": "$3,629.62"
-  },
-  {
-    "id": 82,
-    "name": "Walton Gardner",
-    "salary": "$3,104.68"
-  }
-]
+{
+  "departament": "whole company employees",
+  "employees": [
+    {
+      "id": 1,
+      "name": "Duke Anthony",
+      "salary": "$3,577.32"
+    },
+    {
+      "id": 2,
+      "name": "Gallagher Case",
+      "salary": "$1,262.53"
+    },
+    {
+      "id": 3,
+      "name": "Gale Hunter",
+      "salary": "$3,580.99"
+    },
+    {
+      "id": 4,
+      "name": "Kelly Flowers",
+      "salary": "$1,404.89"
+    },
+    {
+      "id": 5,
+      "name": "Ewing Hicks",
+      "salary": "$2,206.29"
+    },
+    {
+      "id": 6,
+      "name": "Foster Mcpherson",
+      "salary": "$2,590.63"
+    },
+    {
+      "id": 7,
+      "name": "Flores Battle",
+      "salary": "$1,267.47"
+    },
+    {
+      "id": 8,
+      "name": "Shields Vazquez",
+      "salary": "$3,453.98"
+    },
+    {
+      "id": 9,
+      "name": "Jeannine Ashley",
+      "salary": "$1,840.46"
+    },
+    {
+      "id": 10,
+      "name": "Teri Barlow",
+      "salary": "$3,018.44"
+    },
+    {
+      "id": 11,
+      "name": "Spencer Pittman",
+      "salary": "$3,852.79"
+    },
+    {
+      "id": 12,
+      "name": "Melinda Burch",
+      "salary": "$1,158.26"
+    },
+    {
+      "id": 13,
+      "name": "Candace Robertson",
+      "salary": "$2,640.40"
+    },
+    {
+      "id": 14,
+      "name": "Schroeder Duncan",
+      "salary": "$3,823.78"
+    },
+    {
+      "id": 15,
+      "name": "Diane Conley",
+      "salary": "$1,480.43"
+    },
+    {
+      "id": 16,
+      "name": "Cindy Richard",
+      "salary": "$2,688.76"
+    },
+    {
+      "id": 17,
+      "name": "Maricela Erickson",
+      "salary": "$2,103.56"
+    },
+    {
+      "id": 18,
+      "name": "Angel Hood",
+      "salary": "$2,465.88"
+    },
+    {
+      "id": 19,
+      "name": "Carver Marshall",
+      "salary": "$2,584.30"
+    },
+    {
+      "id": 20,
+      "name": "Michael Tyson",
+      "salary": "$3,607.93"
+    },
+    {
+      "id": 21,
+      "name": "Pearson Lynn",
+      "salary": "$2,434.63"
+    },
+    {
+      "id": 22,
+      "name": "Reva Herrera",
+      "salary": "$3,922.58"
+    },
+    {
+      "id": 23,
+      "name": "Edwards Middleton",
+      "salary": "$1,016.04"
+    },
+    {
+      "id": 24,
+      "name": "Katelyn Joyner",
+      "salary": "$1,416.51"
+    },
+    {
+      "id": 25,
+      "name": "Selena Shepherd",
+      "salary": "$1,713.88"
+    },
+    {
+      "id": 26,
+      "name": "Corina Wise",
+      "salary": "$3,839.06"
+    },
+    {
+      "id": 27,
+      "name": "Juarez Daniels",
+      "salary": "$1,974.13"
+    },
+    {
+      "id": 28,
+      "name": "Cox Henson",
+      "salary": "$1,932.87"
+    },
+    {
+      "id": 29,
+      "name": "Aguirre Cain",
+      "salary": "$1,497.80"
+    },
+    {
+      "id": 30,
+      "name": "Mcgowan Cox",
+      "salary": "$3,304.61"
+    },
+    {
+      "id": 31,
+      "name": "Butler Luna",
+      "salary": "$2,050.58"
+    },
+    {
+      "id": 32,
+      "name": "Marietta Noble",
+      "salary": "$3,238.04"
+    },
+    {
+      "id": 33,
+      "name": "Matilda Jacobs",
+      "salary": "$2,014.14"
+    },
+    {
+      "id": 34,
+      "name": "Janet Carpenter",
+      "salary": "$3,175.92"
+    },
+    {
+      "id": 35,
+      "name": "Chelsea Berg",
+      "salary": "$2,007.60"
+    },
+    {
+      "id": 36,
+      "name": "Wolfe Lester",
+      "salary": "$1,273.51"
+    },
+    {
+      "id": 37,
+      "name": "Beasley Salinas",
+      "salary": "$1,918.96"
+    },
+    {
+      "id": 38,
+      "name": "Melva Ortiz",
+      "salary": "$1,106.54"
+    },
+    {
+      "id": 39,
+      "name": "Madelyn Hill",
+      "salary": "$2,826.14"
+    },
+    {
+      "id": 40,
+      "name": "Kemp Butler",
+      "salary": "$2,401.87"
+    },
+    {
+      "id": 41,
+      "name": "Susan Rice",
+      "salary": "$1,338.64"
+    },
+    {
+      "id": 42,
+      "name": "Shelly Mccarty",
+      "salary": "$2,485.60"
+    },
+    {
+      "id": 43,
+      "name": "Glenna Hopkins",
+      "salary": "$1,365.88"
+    },
+    {
+      "id": 44,
+      "name": "Wood Frederick",
+      "salary": "$3,403.55"
+    },
+    {
+      "id": 45,
+      "name": "Lorie Clayton",
+      "salary": "$3,098.39"
+    },
+    {
+      "id": 46,
+      "name": "Linda Valenzuela",
+      "salary": "$2,065.72"
+    },
+    {
+      "id": 47,
+      "name": "Elma Small",
+      "salary": "$2,907.03"
+    },
+    {
+      "id": 48,
+      "name": "Queen Arnold",
+      "salary": "$1,437.15"
+    },
+    {
+      "id": 49,
+      "name": "Krystal Farley",
+      "salary": "$2,261.85"
+    },
+    {
+      "id": 50,
+      "name": "Baxter Clark",
+      "salary": "$2,553.63"
+    },
+    {
+      "id": 51,
+      "name": "Christine Hobbs",
+      "salary": "$1,875.60"
+    },
+    {
+      "id": 52,
+      "name": "Sallie Joseph",
+      "salary": "$1,145.67"
+    },
+    {
+      "id": 53,
+      "name": "Natalie Rodriquez",
+      "salary": "$3,427.86"
+    },
+    {
+      "id": 54,
+      "name": "Deanna Copeland",
+      "salary": "$1,769.57"
+    },
+    {
+      "id": 55,
+      "name": "Deena Goodwin",
+      "salary": "$2,381.15"
+    },
+    {
+      "id": 56,
+      "name": "Manning Snyder",
+      "salary": "$3,754.47"
+    },
+    {
+      "id": 57,
+      "name": "Jannie Cleveland",
+      "salary": "$1,729.34"
+    },
+    {
+      "id": 58,
+      "name": "Eula Burris",
+      "salary": "$1,935.75"
+    },
+    {
+      "id": 59,
+      "name": "Lloyd Boyle",
+      "salary": "$2,191.46"
+    },
+    {
+      "id": 60,
+      "name": "Snyder Walker",
+      "salary": "$2,891.67"
+    },
+    {
+      "id": 61,
+      "name": "Kendra Goodman",
+      "salary": "$3,983.21"
+    },
+    {
+      "id": 62,
+      "name": "Dolores Vaughan",
+      "salary": "$3,815.05"
+    },
+    {
+      "id": 63,
+      "name": "Amber Morin",
+      "salary": "$3,891.34"
+    },
+    {
+      "id": 64,
+      "name": "Dalton Garcia",
+      "salary": "$2,434.82"
+    },
+    {
+      "id": 65,
+      "name": "Debora Reynolds",
+      "salary": "$2,502.92"
+    },
+    {
+      "id": 66,
+      "name": "Billie Taylor",
+      "salary": "$3,100.97"
+    },
+    {
+      "id": 67,
+      "name": "Mcfadden Reese",
+      "salary": "$1,864.08"
+    },
+    {
+      "id": 68,
+      "name": "Jimmie Lewis",
+      "salary": "$2,756.98"
+    },
+    {
+      "id": 69,
+      "name": "Julie Lindsay",
+      "salary": "$2,886.60"
+    },
+    {
+      "id": 70,
+      "name": "Leah Wong",
+      "salary": "$2,422.66"
+    },
+    {
+      "id": 71,
+      "name": "Rosalind Chan",
+      "salary": "$1,638.78"
+    },
+    {
+      "id": 72,
+      "name": "Anna Howell",
+      "salary": "$2,075.44"
+    },
+    {
+      "id": 73,
+      "name": "Dianna Oneal",
+      "salary": "$3,575.37"
+    },
+    {
+      "id": 74,
+      "name": "Fisher Villarreal",
+      "salary": "$1,720.87"
+    },
+    {
+      "id": 75,
+      "name": "Marsha Henry",
+      "salary": "$3,372.78"
+    },
+    {
+      "id": 76,
+      "name": "Francesca Stephens",
+      "salary": "$2,246.25"
+    },
+    {
+      "id": 77,
+      "name": "Benton Patterson",
+      "salary": "$1,972.47"
+    },
+    {
+      "id": 78,
+      "name": "Smith Ward",
+      "salary": "$3,094.74"
+    },
+    {
+      "id": 79,
+      "name": "Adela Mccarthy",
+      "salary": "$1,042.64"
+    },
+    {
+      "id": 80,
+      "name": "Janna Sweet",
+      "salary": "$1,788.48"
+    },
+    {
+      "id": 81,
+      "name": "Silva Carlson",
+      "salary": "$3,629.62"
+    },
+    {
+      "id": 82,
+      "name": "Walton Gardner",
+      "salary": "$3,104.68"
+    }
+  ]
+}

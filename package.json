@@ -1,7 +1,7 @@
 {
   "name": "flux-livereactload",
   "version": "1.0.0",
-  "description": "babel es2015 reflux jsx react browserify watchify livereactload",
+  "description": "babel es2015 reflux jsx react browserify watchify livereactload bootstrap superagent",
   "main": "boundle.js",
   "scripts": {
     "clean": "rm -rf dist/",
@@ -19,6 +19,7 @@
   },
   "keywords": [
     "babel",
+    "bootstrap",
     "browserify",
     "es2015",
     "reflux",
