@@ -2,13 +2,13 @@ flux-livereactload [![build](https://api.travis-ci.org/daggerok/flux-livereactlo
 ==================
 
 using
-  -babel
-  -es2015
-  -flux
-  -jsx
-  -react
-  -browserify
-  -watchify
-  -livereactload
+    -babel
+    -es2015
+    -flux
+    -jsx
+    -react
+    -browserify
+    -watchify
+    -livereactload
 
   `npm start`
