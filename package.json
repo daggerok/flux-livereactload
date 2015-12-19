@@ -8,7 +8,7 @@
     "clear": "rm -rf dist/ node_modules/",
     "prestart": "npm install --no-optional",
     "postinstall": "npm run vendors",
-    "vendors": "mkdir -pv dist/ && cp -Rf node_modules/jquery/dist/jquery.min.js dist/ && cp -Rf node_modules/bootstrap/dist/js/bootstrap.min.js dist/ && cp -Rf node_modules/bootstrap/dist/css/bootstrap.min.css dist/",
+    "vendors": "mkdir -pv dist/ && cp -Rf node_modules/jquery/dist/jquery.min.js dist/ && cp -Rf node_modules/bootstrap/dist/js/bootstrap.min.js dist/ && cp -Rf node_modules/bootstrap/dist/css/bootstrap.min.css dist/ && cp -Rf api dist/",
     "start": "watchify src/entry.jsx -o 'envify > dist/bundle.js' -t babelify -p livereactload -d -v --delay 200 --fast=true",
     "prebuild": "npm run clean && npm install --no-optional",
     "build": "browserify src/entry.jsx -o dist/bundle.js -t babelify"
@@ -47,6 +47,7 @@
     "jquery": "^2.1.4",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
-    "reflux": "^0.3.0"
+    "reflux": "^0.3.0",
+    "superagent": "^1.6.1"
   }
 }

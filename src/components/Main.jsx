@@ -1,14 +1,22 @@
 const React = require('react'),
 Reflux = require('reflux'),
+rest = require('superagent'),
 
 Store = Reflux.createStore({
-  body: { message: 0 },
+  body: { 
+    counter: 0,
+    people: []
+  },
 
   init() {
-    setInterval(() => {
-      this.body.message++
+    rest('https://github.com/daggerok/flux-livereactload/blob/master/api/people.json', response => {
+      this.body.people = response.body
       this.trigger(this.body)
-    }, 500)
+    })
+    setInterval(() => {
+      this.body.counter++
+      this.trigger(this.body)
+    }, 1000)
   }, 
 
   getInitialState() { return this.body }
@@ -16,7 +24,11 @@ Store = Reflux.createStore({
 
 Main = React.createClass({
   mixins: [Reflux.connect(Store)],
-  render() { return <div>{this.state.message}</div> }
+  render() { 
+    return  <div className="text-success">
+              uptime: {this.state.counter} seconds...
+            </div>
+  }
 })
 
 module.exports = Main
