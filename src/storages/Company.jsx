@@ -1,5 +1,4 @@
-const React = require('react'),
-Reflux = require('reflux'),
+const Reflux = require('reflux'),
 Rest = require('superagent'),
 
 Company = Reflux.createStore({

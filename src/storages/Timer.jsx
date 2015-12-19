@@ -1,5 +1,5 @@
-const React = require('react'),
-Reflux = require('reflux'),
+const Reflux = require('reflux'),
+Actions = require('../actions/Timer.jsx'),
 
 Timer = Reflux.createStore({
   data: { counter: 0 },
@@ -11,7 +11,14 @@ Timer = Reflux.createStore({
     }, 1000)
   },
 
-  getInitialState() { return this.data }
+  getInitialState() { return this.data },
+
+  listenables: [ Actions ],
+
+  onResetCounter() {
+    this.data.counter = 0
+    this.trigger(this.data)
+  }
 })
 
 module.exports = Timer
