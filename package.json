@@ -1,7 +1,7 @@
 {
   "name": "flux-livereactload",
   "version": "1.0.0",
-  "description": "babel es2015 reflux jsx react browserify watchify livereactload bootstrap superagent",
+  "description": "babel reflux jsx react browserify watchify livereactload bootstrap superagent",
   "main": "boundle.js",
   "scripts": {
     "clean": "rm -rf dist/",
@@ -9,9 +9,9 @@
     "prestart": "npm install --no-optional",
     "postinstall": "npm run vendors",
     "vendors": "mkdir -pv dist/ && cp -Rf node_modules/jquery/dist/jquery.min.js dist/ && cp -Rf node_modules/bootstrap/dist/js/bootstrap.min.js dist/ && cp -Rf node_modules/bootstrap/dist/css/bootstrap.min.css dist/ && cp -Rf api dist/",
-    "start": "watchify src/entry.jsx -o 'envify > dist/bundle.js' -t babelify -p livereactload -d -v --delay 200 --fast=true",
-    "prebuild": "npm run clean && npm install --no-optional",
-    "build": "browserify src/entry.jsx -o dist/bundle.js -t babelify"
+    "start": "watchify src/entry.jsx -o dist/bundle.js -t babelify -p livereactload -d -v --delay 200 --fast=true",
+    "pretest": "npm run clean && npm install --no-optional",
+    "test": "browserify src/entry.jsx -o dist/bundle.js -t babelify"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,6 @@
     "babel",
     "bootstrap",
     "browserify",
-    "es2015",
     "reflux",
     "jsx",
     "livereactload",
@@ -35,7 +34,6 @@
   },
   "homepage": "https://github.com/daggerok/flux-livereactload#readme",
   "devDependencies": {
-    "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babelify": "^7.2.0",
     "browserify": "^12.0.1",
