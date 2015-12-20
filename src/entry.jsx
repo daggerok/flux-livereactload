@@ -1,7 +1,7 @@
 const React = require('react'),
 ReactDOM = require('react-dom'),
-Main = require('./services/Main.jsx'),
-log = require('./actions/Logger.jsx')
+Main = require('./components/Main.jsx'),
+log = require('./services/Logger.jsx')
 
 log('hello, reflux!')
 
