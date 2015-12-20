@@ -8,7 +8,10 @@ Timer = React.createClass({
 
   render() {
     return (
-      <div onClick={Actions.resetCounter} className="text-success panel panel-heading">
+      <div
+        onClick={Actions.doubleCounter}
+        onDoubleClick={Actions.resetCounter}
+        className="text-success panel panel-heading">
         uptime: {this.state.counter} seconds...
       </div>
     )

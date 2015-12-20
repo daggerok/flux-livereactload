@@ -18,6 +18,11 @@ Timer = Reflux.createStore({
   onResetCounter() {
     this.data.counter = 0
     this.trigger(this.data)
+  },
+
+  onDoubleCounter() {
+    this.data.counter = this.data.counter * this.data.counter
+    this.trigger(this.data)
   }
 })
 
