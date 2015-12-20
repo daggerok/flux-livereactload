@@ -1,8 +1,8 @@
 const Reflux = require('reflux'),
-// will reset uptime counter on click
+
 Timer = Reflux.createActions([
-  'resetCounter',
-  'doubleCounter'
+  'resetCounter', // duble uptime counter on click
+  'doubleCounter' // reset uptime counter on double click
 ])
 
 module.exports = Timer
