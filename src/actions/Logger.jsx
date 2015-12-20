@@ -16,5 +16,4 @@ Storage.listen(data => {
   console.log(data)
 })
 
-
 module.exports = Logger
