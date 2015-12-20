@@ -3,11 +3,6 @@ ReactDOM = require('react-dom'),
 Main = require('./components/Main.jsx'),
 log = require('./services/Logger.jsx')
 
-log('hello, reflux!')
-
-log({
-  info: 'bootstrapping components...',
-  component: Main
-})
+log({message: 'reflux in action!', component: Main})
 
 ReactDOM.render(<Main className="container panel wrapper"/>, document.getElementById('view'))
