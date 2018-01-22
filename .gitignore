@@ -1,3 +1,9 @@
 dist/
 node_modules/
-*.log
+*.log*
+package-lock.json
+.idea/
+.iml
+.ipr
+.iws
+yarn.lock
